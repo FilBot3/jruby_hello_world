@@ -7,4 +7,6 @@
 /pkg/
 /spec/reports/
 /tmp/
-*.[war|ear|jar]
+*.war
+*.ear
+*.jar

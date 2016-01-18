@@ -9,3 +9,5 @@ module JrubyHelloWorld
     end
   end
 end
+
+#JrubyHelloWorld::HelloWorld.run!

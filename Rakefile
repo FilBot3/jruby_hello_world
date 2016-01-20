@@ -11,3 +11,11 @@ Rake::TestTask.new(:test) do |t|
 end
 
 task :default => :spec
+
+CATALINA_HOME = "C:/apache/tomcat-8.0.21"
+CATALINA_WEBAPPS = "#{CATALINA_HOME}/webapps"
+desc "Deploy the WAR to CATALINA_HOME"
+task :deploy_war do
+  puts "=> Deploying WAR to #{CATALINA_WEBAPPS}"
+  sh "cp jruby_hello_world.war #{CATALINA_WEBAPPS}/"
+end

@@ -1,4 +1,4 @@
-require "jruby_hello_world/version"
+#require "jruby_hello_world/version"
 require 'sinatra'
 require 'sinatra/base'
 

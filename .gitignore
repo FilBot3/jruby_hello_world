@@ -1,6 +1,6 @@
 /.bundle/
 /.yardoc
-/Gemfile.lock
+#/Gemfile.lock
 /_yardoc/
 /coverage/
 /doc/
@@ -10,3 +10,6 @@
 *.war
 *.ear
 *.jar
+*~
+*.sw[a-z0-9]
+

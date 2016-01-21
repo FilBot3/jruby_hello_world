@@ -19,3 +19,9 @@ task :deploy_war do
   puts "=> Deploying WAR to #{CATALINA_WEBAPPS}"
   sh "cp jruby_hello_world.war #{CATALINA_WEBAPPS}/"
 end
+
+desc "Clean deployed WAR File."
+task :clean_deployed_war do
+  puts "=> Cleaning up deployed WAR"
+  sh "rm -rf #{CATALINA_WEBAPPS}/jruby_hello_world*"
+end

@@ -21,6 +21,7 @@ GEM
 
 PLATFORMS
   java
+  x64-mingw32
 
 DEPENDENCIES
   bundler (~> 1.11)

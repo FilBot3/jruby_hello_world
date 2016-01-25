@@ -2,6 +2,6 @@
 #
 #
 
-require './lib/jruby_hello_world'
+require 'jruby_hello_world'
 
-JrubyHelloWorld::HelloWorld.run!
+run JrubyHelloWorld::HelloWorld

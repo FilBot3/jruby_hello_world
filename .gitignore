@@ -12,4 +12,5 @@
 *.jar
 *~
 *.sw[a-z0-9]
-
+Vagrantfile
+.vagrant
